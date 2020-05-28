@@ -6,6 +6,7 @@ const PictureCard = props => {
       <h2>{props.title}</h2>
       <h2>{props.date}</h2>
         <img src={props.url} alt=""></img>
+        <p>{props.explanation}</p>
       </div>
   );
 };
