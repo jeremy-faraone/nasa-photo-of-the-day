@@ -17,7 +17,7 @@ const PictureList = () => {
     }, [])
         return (
        <div className="entry">
-         {data && <PictureCard date={data.date} title={data.title} url={data.url} explanation={data.explanation}/>};
+         {data && <PictureCard date={data.date} title={data.title} url={data.url} explanation={data.explanation}/>}
               </div>
     )
 }
